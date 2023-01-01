@@ -2,9 +2,8 @@
   {
     "fullName": "Lionel Messi",
     "overall": 91,
-    "Value(in Euro)": 54000000,
-    "Nationality": "Argentina",
-    "Image Link": "https://cdn.sofifa.net/players/158/023/23_60.png",
+    "nationality": "Argentina",
+    "imageLink": "https://cdn.sofifa.net/players/158/023/23_60.png",
     "Age": 35,
     "Club Name": "Paris Saint-Germain",
     "Club Position": "RW",
@@ -20,8 +19,7 @@
   {
     "fullName": "Karim Benzema",
     "overall": 91,
-    "Value(in Euro)": 64000000,
-    "Nationality": "France",
+    "nationality": "France",
     "Image Link": "https://cdn.sofifa.net/players/165/153/23_60.png",
     "Age": 34,
     "Club Name": "Real Madrid CF",
@@ -38,8 +36,7 @@
   {
     "fullName": "Robert Lewandowski",
     "overall": 91,
-    "Value(in Euro)": 84000000,
-    "Nationality": "Poland",
+    "nationality": "Poland",
     "Image Link": "https://cdn.sofifa.net/players/188/545/23_60.png",
     "Age": 33,
     "Club Name": "FC Barcelona",
@@ -56,8 +53,7 @@
   {
     "fullName": "Kevin De Bruyne",
     "overall": 91,
-    "Value(in Euro)": 107500000,
-    "Nationality": "Belgium",
+    "nationality": "Belgium",
     "Image Link": "https://cdn.sofifa.net/players/192/985/23_60.png",
     "Age": 31,
     "Club Name": "Manchester City",
@@ -74,8 +70,7 @@
   {
     "fullName": "Kylian Mbappé",
     "overall": 91,
-    "Value(in Euro)": 190500000,
-    "Nationality": "France",
+    "nationality": "France",
     "Image Link": "https://cdn.sofifa.net/players/231/747/23_60.png",
     "Age": 23,
     "Club Name": "Paris Saint-Germain",
@@ -92,8 +87,7 @@
   {
     "fullName": "Mohamed Salah",
     "overall": 90,
-    "Value(in Euro)": 115500000,
-    "Nationality": "Egypt",
+    "nationality": "Egypt",
     "Image Link": "https://cdn.sofifa.net/players/209/331/23_60.png",
     "Age": 30,
     "Club Name": "Liverpool",

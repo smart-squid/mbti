@@ -1,0 +1,18 @@
+---
+name: "Karim Benzema"
+nationality: "France"
+overall: "91"
+position: "CF"
+imageLink: "https://cdn.sofifa.net/players/165/153/23_60.png"
+age: "34"
+clubName: "Real Madrid CF"
+value: "64000000"
+height: "185"
+weight: "81"
+pace: "80"
+shooting: "88"
+passing: "83"
+dribbling: "87"
+defending: "39"
+physicality: "78"
+---

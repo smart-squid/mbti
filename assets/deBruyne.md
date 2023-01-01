@@ -1,0 +1,18 @@
+---
+name: "Kevin De Bruyne"
+nationality: "Belgium"
+overall: "91"
+position: "CM"
+imageLink: "https://cdn.sofifa.net/players/192/985/23_60.png"
+age: "31"
+clubName: "Manchester City"
+value: "107500000"
+height: "181"
+weight: "70"
+pace: "80"
+shooting: "88"
+passing: "83"
+dribbling: "87"
+defending: "39"
+physicality: "78"
+---
