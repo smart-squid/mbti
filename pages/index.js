@@ -15,7 +15,8 @@ export async function getStaticProps() {
 
 export default function Home({ allPostsData }) {
     return (
-        <Layout home>
+        // <Layout home>
+        <>
             <Head>
                 <title>{siteTitle}</title>
                 <link rel="icon" href="/favicon.ico" />
@@ -25,13 +26,9 @@ export default function Home({ allPostsData }) {
             >
                 <h2 className={utilStyles.headingLg}>Blog</h2>
                 <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, name, overall }) => (
+                    {allPostsData.map(({ id, korName }) => (
                         <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/players/${id}`}>{name}</Link>
-                            <br />
-                            <small className={utilStyles.lightText}>
-                                {overall}
-                            </small>
+                            <Link href={`/players/${id}`}>{korName}</Link>
                         </li>
                     ))}
                 </ul>
@@ -40,6 +37,7 @@ export default function Home({ allPostsData }) {
                 <p>나와 비슷한 축구선수 찾기 &rarr;</p>
             </Link>
             <p>나와 비슷한 성향을 가진 축구선수는 누구일까요?</p>
-        </Layout>
+        </>
+        // </Layout>
     );
 }

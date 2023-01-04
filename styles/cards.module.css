@@ -1,191 +1,233 @@
 /* Path: styles\cards.module.css */
 @import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
 
-.center {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-}
-
-.card {
-    width: 600px;
-    height: 350px;
-    background-color: #fff;
-    background: linear-gradient(#f8f8f8, #fff);
-    box-shadow: 0 8px 16px -8px rgba(0, 0, 0, 0.4);
-    border-radius: 6px;
-    overflow: hidden;
-    position: relative;
-    margin: 1.5rem;
-}
-
-.card h1 {
-    text-align: center;
-}
-
-.card .additional {
-    position: absolute;
-    width: 200px;
-    height: 100%;
-    background: linear-gradient(#de685e, #ee786e);
-    transition: width 0.4s;
-    overflow: hidden;
-    z-index: 2;
-}
-
-.card.green .additional {
-    background: linear-gradient(#92bca6, #a2ccb6);
-}
-
-.card:hover .additional {
-    width: 100%;
-    border-radius: 0 5px 5px 0;
-}
-
-.card:hover .additional {
-    width: 100%;
-    border-radius: 0 5px 5px 0;
-}
-
-.card .additional .user_card {
-    width: 200px;
-    height: 100%;
-    position: relative;
-    float: left;
-}
-
-.card .additional .user_card::after {
-    content: "";
-    display: block;
-    position: absolute;
-    top: 10%;
-    right: -2px;
-    height: 80%;
-    border-left: 2px solid rgba(0, 0, 0, 0.025);
-}
-
-.card .additional .user_card .img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    background-size: cover;
-    box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.1);
-}
-
-.card .additional .user_card .level,
-.card .additional .user_card .points {
-    top: 15%;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 1em;
-    font-weight: bold;
-    background: rgba(0, 0, 0, 0.15);
-    padding: 0.125rem 0.75rem;
-    border-radius: 100px;
-    white-space: nowrap;
-}
-
-.card .additional .user_card .points {
-    top: 85%;
-}
-
-.card .additional .user_card svg {
-    top: 50%;
-}
-
-.card .additional .more_info {
-    width: 400px;
-    float: left;
-    position: absolute;
-    left: 200px;
-    height: 100%;
-}
-
-.card .additional .more_info h1 {
-    color: #fff;
-    margin-bottom: 0;
-}
-
-.card.green .additional .more_info h1 {
-    color: #224c36;
-}
-
-.card .additional .coords {
-    margin: 0 1rem;
-    color: #fff;
-    font-size: 1rem;
-}
-
-.card.green .additional .coords {
-    color: #325c46;
-}
-
-.card .additional .coords span + span {
-    float: right;
-}
-
-.card .additional .stats {
-    font-size: 2rem;
-    display: flex;
-    position: absolute;
-    bottom: 1rem;
-    left: 1rem;
-    right: 1rem;
-    top: auto;
-    color: #fff;
-}
-
-.card.green .additional .stats {
-    color: #325c46;
-}
-
-.card .additional .stats > div {
-    flex: 1;
-    text-align: center;
-}
-
-.card .additional .stats .icon {
-    display: block;
-    width: 30px;
-    height: 30px;
-}
-
-.card .additional .stats div.title {
-    font-size: 0.75rem;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.card .additional .stats div.value {
-    font-size: 1.5rem;
-    font-weight: bold;
-    line-height: 1.5rem;
-}
-
-.card .additional .stats div.value.infinity {
-    font-size: 2.5rem;
-}
-
-.card .general {
-    width: 400px;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
+.player_card {
     box-sizing: border-box;
-    padding: 1rem;
-    padding-top: 0;
+    width: 454px;
+    height: 100%;
+    position: relative;
+    background: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    margin: 10% auto;
 }
 
-.card .general .more {
+.player_card_title {
+    width: 100%;
+    height: 114px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player_card_title h1 {
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #2d2d2d;
+}
+
+.player_card_detail {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.player_card_detail_header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.player_card_detail_info {
+    display: flex;
+    width: 100%;
+    margin-top: -20px;
+}
+
+.player_card_detail_info > div:nth-of-type(1) {
+    width: 30%;
+    margin: auto;
+}
+
+.player_card_detail_info > div:nth-of-type(2) {
+    width: 50%;
+    margin: auto;
+}
+
+.player_card_detail_info > div:nth-of-type(3) {
+    width: 20%;
+    margin: auto;
+    text-align: center;
+}
+
+.player_card_detail_position {
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+
+.player_card_detail_position h3 {
+    margin: 0 auto;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.player_card_detail_number h1 {
+    margin: 0;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 99px;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.05em;
+}
+
+.player_card_detail_name h2 {
+    padding-left: 5px;
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    align-items: center;
+    color: #102650;
+}
+
+.player_card_detail_ovr {
+    background: #ffffff;
+    border: 3px solid #d9d9d9;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.player_card_detail_ovr h3 {
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    margin: 10px auto;
+}
+
+.player_card_detail_body {
+    width: 100%;
+    display: flex;
+    height: 550px;
+    border-radius: 5px;
+    margin-bottom: 10%;
+}
+
+.paris {
+    background: rgba(16, 38, 80, 0.85);
+}
+
+.mancity {
+    background: rgba(117, 200, 232, 0.85);
+}
+
+.player_card_detail_stats {
+    margin: 3%;
+    width: 100px;
+    height: 140px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.player_card_detail_stats > div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 21px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.player_card_detail_stats > div:nth-of-type(1) {
+    margin-top: 10%;
+}
+
+.player_card_detail_stats > div > h3.left {
+    text-align: left;
+}
+
+.player_card_detail_stats > div > h3.right {
+    text-align: right;
+    padding-left: 5px;
+}
+
+.dark {
+    background: rgba(217, 217, 233, 0.2);
+}
+
+.player_card_detail_stats.dark h3 {
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #ffffff;
+    margin: 0;
+}
+
+.light {
+    background: #D9D9E9;
+}
+
+.player_card_detail_stats.light h3 {
+    font-family: "Righteous";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 21px;
+    color: #2D2D2D;
+    margin: 0;
+}
+
+.player_card_detail_image img {
     position: absolute;
-    bottom: 1rem;
-    right: 1rem;
-    font-size: 0.9em;
+}
+
+.player_card_detail_club_logo {
+    width: 110px;
+    height: 110px;
+    background: #ffffff;
+    border: none;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+    border-radius: 50%;
+}
+
+.player_card_detail_club_logo img {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+}
+
+.player_card_detail_nation_logo img {
+    position: absolute;
+    top: 285px;
+    right: 60px;
 }
