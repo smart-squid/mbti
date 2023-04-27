@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css?family=Abel");
+@import url("https://fonts.googleapis.com/css?family=Righteous");
+
+.body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    margin-top: 40px;
+}
+
+.main_image {
+    display: block;
+    margin: 30px auto;
+    max-width: 100%;
+    height: auto;
+}
+
+.button {
+    display: inline-block;
+    margin: 15px auto;
+    padding: 10px 20px;
+    font-size: 1.0em;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #5a5a5a;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 80%;
+    height: 80px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #6a6a6a;
+}
+
+.button:active {
+    background-color: #3a3a3a;
+}

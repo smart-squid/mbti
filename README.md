@@ -32,3 +32,43 @@ TODO List
  - 결과화면 레이아웃 만들기
 
 https://cdn.sofifa.net/flags/br.png
+
+ATTACK:
+
+ESFP: Left-Wing, showboater; mad skilling, blowing over the crowd with flashy footwork. Makes people wonder if the beautiful game is still a team-sport. Always wears the kit #7. Doesn't like to share.
+
+ESTP: Right-Wing, speedster; scary when left unmarked. Sees an opening, cuts straight into it. Quick and decisive, risky play and crosses. Makes defenders look like fools.
+
+ENFJ: Striker, sharpshooter; deadly, mesmerizing attacks, ridiculous bicycle kicks and awe-inspiring, long-distance strikes at goal. Doesn't care about the impossible.
+
+MIDFIELD:
+
+ISTP: Center-Attacking-Midfield, playmaker; artistic passes, beautiful creationist, high-energy movement. Expert at making use of spaces.
+
+ENFP: Center-Midfield, engine; always running, enthusiastic, unparralleled stamina. Keeps the ball movement going for the team, always. A model source of encouragement.
+
+ESFJ: Center-Midfield, assistant; provides support in every part of the field. Is always where the ball is, versatile and acts like an extra man, everywhere. Makes the opponent wonder if the team snuck in extra players.
+
+ISFP: Right-Midfield, artist; ccomfuses the opposition with creativity, makes excellent opportunities, dynamic, lion-hearted dribbles.
+
+ISTJ: Left-Midfield, logistician; the RMs opposite, static movement, safe passes, easy, contained ball-posession. Patient, deadly, precised. The teams’ viper.
+
+ENTJ: Center-Defense-Midfiield, commandant (captain); Bands the team, powerful vision. Defense coordinator, flamboyant tactician. Powerful long-balls, capable of unparalled counterattacks. Aspires to be the next manager of the club upon retirement.
+
+DEFENSE:
+
+INFP: Left-Back, sweeper; the cleanest, lightest tackles. Quiet, subtle movement, the perfect ball-thief. 0 seasonal red-cards, 0 yellow-cards, 0 fouls. Shows the world how football is played without injury. Highly respected by opponents.
+
+ESTJ: Center-Back, guard (vice-captain); eyes of the entire defense, keeps perfect control of formation. Excellent vision, strong command, patches up defense during the most, unanticipated attacks.
+
+ISFJ: Right-Back, rook; curator of the ball. Delicate, reserved movement, receptive to change, adaptable. Ball thief, interceptor during attacking passes. Unsuspecting sweeper. The goal is in safe hands.
+
+INFJ: Goalkeeper, savior; special-snowflake, only person legally allowed to use his hands. The last line of defense. Awkward turtle who's bad-mouthed by penalty takers. Shakes off haters with gravity-defying saves. Ironically, the best penalty-taker of the team. Any better, he would be a literal wall.
+
+OFF-PITCH:
+
+INTJ: Manager, strategist; chess-player of the field, mastermind. Strategies who makes the entire game possible to play. Intellectual driving force. Perfect at picking the right men for the right roles.
+
+INTP: Vice-Manager, tactician; next-in-line, experimental, unorthodox genius who's unexplored ideas will break the game. Prodigy-in-grooming, awaiting to be the next manager of the century.
+
+ENTP: Referee, judge; impartial, fair and just. Is hated for doing his job. Impossible to bribe. Breaks up fights. Makes the right calls, most underappreciated, nice guy.
