@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Link from "next/link";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../styles/utils.module.css";
+import indexStyles from "../styles/index.module.css";
 import { getSortedPostsData } from "../lib/players";
+import { useRouter } from "next/router";
 
 export async function getStaticProps() {
     const allPostsData = getSortedPostsData();
@@ -14,30 +13,24 @@ export async function getStaticProps() {
 }
 
 export default function Home({ allPostsData }) {
+    const r = useRouter();
+
+    const startTest = () => {
+        localStorage.clear();
+        r.push(`/tests/${1}`);
+    };
+
     return (
-        // <Layout home>
         <>
             <Head>
-                <title>{siteTitle}</title>
+                <title>나와 비슷한 축구선수는?</title>
                 <link rel="icon" href="/favicon.ico" />
             </Head>
-            <section
-                className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}
-            >
-                <h2 className={utilStyles.headingLg}>Blog</h2>
-                <ul className={utilStyles.list}>
-                    {allPostsData.map(({ id, korName }) => (
-                        <li className={utilStyles.listItem} key={id}>
-                            <Link href={`/players/${id}`}>{korName}</Link>
-                        </li>
-                    ))}
-                </ul>
-            </section>
-            <Link href="/posts/first-post">
-                <p>나와 비슷한 축구선수 찾기 &rarr;</p>
-            </Link>
-            <p>나와 비슷한 성향을 가진 축구선수는 누구일까요?</p>
+            <div className={indexStyles.body}>
+                <h2 className={indexStyles.title} >나와 비슷한 성향을 가진 축구선수는 누구일까요?</h2>
+                <img className={indexStyles.main_image} src="/images/main.jpg" />
+                <button className={indexStyles.button} onClick={startTest}>테스트 시작하기</button>
+            </div>
         </>
-        // </Layout>
     );
 }

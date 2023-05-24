@@ -141,6 +141,10 @@ export default function Post({ postData }) {
                         </div>
                     </div>
                 </div>
+
+                <div className={cardStyles.player_card_description}>
+                    
+                </div>
             </div>
         </>
     );
