@@ -34,7 +34,7 @@ export default function Result() {
             result += "J";
         }
 
-        console.log(result);
+        alert(`MBTI 결과: ${result}`);
 
         r.push(`/players/${result}`);
     };
